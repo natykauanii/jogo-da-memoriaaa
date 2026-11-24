@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória - Nátally Kauani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🧠 Jogo da Memória</h1>
+        <p id="turno-texto">Vez do: <strong>Jogador 1</strong></p>
+    </header>
+
+    <div class="placar">
+        <div id="box-j1" class="jogador ativo">
+            <span>Jogador 1</span>
+            <strong id="pontos-j1">0</strong>
+        </div>
+        <div id="box-j2" class="jogador">
+            <span>Jogador 2</span>
+            <strong id="pontos-j2">0</strong>
+        </div>
+    </div>
+
+    <main>
+        <div class="tabuleiro" id="tabuleiro"></div>
+        <div id="mensagem-final" class="mensagem-final oculto"></div>
+    </main>
+
+    <button id="btn-reiniciar">🔄 Reiniciar Jogo</button>
+
+    <footer>
+        <p>Desenvolvido por NÁTALLY KAUANI — Projeto Escolar</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
